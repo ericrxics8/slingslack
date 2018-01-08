@@ -1,0 +1,42 @@
+LOG:  database system was interrupted; last known up at 2017-09-08 03:23:49 CST
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  invalid record length at 0/150F5D8: wanted 24, got 0
+LOG:  redo is not required
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  role "slingSlack" does not exist
+ERROR:  database "erwin" already exists
+STATEMENT:  CREATE DATABASE erwin;
+ERROR:  syntax error at or near "slingSlackPassword" at character 33
+STATEMENT:  CREATE ROLE slingSlack PASSWORD slingSlackPassword
+	exit
+	help
+	help
+	:wq
+	/q
+	:exit
+	:q
+	;
+ERROR:  syntax error at or near "slingSlackPassword" at character 33
+STATEMENT:  CREATE ROLE slingSlack PASSWORD slingSlackPassword;
+ERROR:  syntax error at or near "`" at character 38
+STATEMENT:  CREATE ROLE slingSlack WITH PASSWORD `slingSlackPassword`;
+FATAL:  role "slingSlack" does not exist
+FATAL:  database "legaltemplates_development" does not exist
+FATAL:  role "slingSlack" does not exist
+FATAL:  role "slingSlack" does not exist
+ERROR:  syntax error at or near "slingSlack" at character 1
+STATEMENT:  slingSlack;
+FATAL:  database "slingSlack" does not exist
+ERROR:  role "slingslack" already exists
+STATEMENT:  CREATE ROLE slingSlack PASSWORD 'slingSlackPassword';
+FATAL:  role "slingslack" is not permitted to log in
+FATAL:  role "slingslack" is not permitted to log in
+FATAL:  role "slingslack" is not permitted to log in
+ERROR:  role "slingSlack" does not exist
+STATEMENT:  ALTER ROLE "slingSlack" WITH LOGIN;
+FATAL:  role "slingSlack" does not exist
+FATAL:  role "slings`lack" does not exist
+ERROR:  permission denied to create database
+STATEMENT:  CREATE DATABASE "sling_dev" ENCODING 'UTF8'
