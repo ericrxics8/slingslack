@@ -40,3 +40,7 @@ FATAL:  role "slingSlack" does not exist
 FATAL:  role "slings`lack" does not exist
 ERROR:  permission denied to create database
 STATEMENT:  CREATE DATABASE "sling_dev" ENCODING 'UTF8'
+LOG:  autovacuum launcher shutting down
+LOG:  received smart shutdown request
+LOG:  shutting down
+LOG:  database system is shut down
